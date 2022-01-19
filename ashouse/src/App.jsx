@@ -29,13 +29,13 @@ function App() {
           </div>
           <div>
             <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/review' element={<Reviewtab />} />
-              <Route path='/products' element={<Product />} />
-              <Route path='/products/mainmenu' element={<MainMenu />} />
-              <Route path='/mainmenu' element={<MainMenu />} />
-              <Route path='/privacy' element={<Privacy />} />
-              <Route path='/about' element={<About />} />
+              <Route path='/' element={<Home />} exacet = {true} />
+              <Route path='/review' element={<Reviewtab />} exacet = {true}/>
+              <Route path='/products' element={<Product />} exacet = {true}/>
+              <Route path='/products/mainmenu' element={<MainMenu />} exacet = {true} />
+              <Route path='/mainmenu' element={<MainMenu />} exacet = {true} />
+              <Route path='/privacy' element={<Privacy />} exacet = {true}/>
+              <Route path='/about' element={<About />} exacet = {true}/>
             </Routes>
           </div>
           <div>
