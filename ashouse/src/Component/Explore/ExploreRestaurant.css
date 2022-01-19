@@ -1,0 +1,25 @@
+.explore-section {
+  margin-top: 1rem;
+}
+
+.explore-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.explore-grid a {
+  text-decoration: none;
+}
+
+.max-width {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+.collection-title {
+  font-size: 30px;
+  color: var(--heading-text);
+  margin: 1rem;
+  font-weight: 500;
+}

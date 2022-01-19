@@ -1,0 +1,22 @@
+.dropdown {
+    width: 100%;
+    z-index: 5;
+}
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.dropdown-list {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    overflow: auto;
+    background-color: var(--clr-white);
+    list-style-type: none;
+    padding-left: 1rem;
+}
+.dropdown-list-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

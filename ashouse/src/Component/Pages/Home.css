@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    
+    width: 100%;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    /* position: absolute; */
+}
+.center{
+    background: url('/src/main_page.jpg') center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 34vh;
+    padding-top: 2rem;
+}
+.heading {
+    font-size:xx-large;
+    color:var(--clr-white);
+    background-image: repeating-conic-gradient(var(--main-dark) 10%, var(--main-light) 20%);
+    margin-bottom: .5rem;
+}
+
+.absolute_center {
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    color:var(--main-dark);
+
+}
+.center_right {
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    margin: 1rem;
+}
+.center_location_search_container {
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;;
+    height: 54px;
+    display: flex;
+    min-width: 500px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    background-color:var( --clr-white);
+    width: auto;
+    border: 1px solid var(--white);
+    justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.location_search_separator {
+    height: 20px;
+    border: 0.5px solid  var(--main-light);
+    /* margin-right: .5rem; */
+}
+.location_wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.location_icon_name {
+    display: flex;
+    color: var(--main-light);
+}
+.location_icon {
+    margin-right: 1rem;
+    font-size: 20px;
+    color:var(--main-dark);
+}
+.center_searchBar {
+    display: flex;
+    flex: 2;
+    width: 100%;
+}
+.search_icon {
+    font-size: 20px;
+    color: var(--main-dark);
+    margin: 0rem 2rem;
+}
+.search_input {
+    border: none;
+    width: 70%;
+    font-size: 14px;
+    outline: none;
+    color: var(--main-light);
+   
+}
+::placeholder {
+    color: var(--main-light);
+}
+.list_of_city{
+    display: flex;
+    flex-direction: row;
+}
+.city{
+    margin: 1rem;
+}
+  
+@media (max-width: 600px) {
+    .center_location_search_container {
+        flex-direction: column;
+        height: 80px;
+        padding-top: 0.2rem;
+        min-width: 200px;
+    }
+
+    .location_search_separator {
+        display: none;
+    }
+}

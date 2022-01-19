@@ -1,0 +1,14 @@
+.filter-item {
+  padding: 8px;
+  display: flex;
+  background-color: transparent;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  margin: 10px 10px 10px 0px;
+  font-size: 14px;
+}
+
+.filter-name {
+  margin-left: 5px;
+}
